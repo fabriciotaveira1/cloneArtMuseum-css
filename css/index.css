@@ -68,7 +68,7 @@ nav{
 }
 
 #container hr{
-    width: 60%;
+    width: 80%;
     height: 2px;
     margin: 0% auto;
     background-color: #F5124B;
@@ -82,11 +82,83 @@ nav{
     border-radius: 5px;
 }
 
-#container img{
+#containerPost img{
     width: 95%;
     margin: 10px 0px;
     height: auto;
 }
+
+#containerPost button{
+    width: 15%;
+    height: auto;
+    margin: 15px;
+    padding: 8px 10px 8px 10px;
+    background-color: #F5124B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#p{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#containerBox{
+    width: 100%;
+    height: auto;
+    margin: 30px 0px 20px 0px;
+    
+}
+
+#containerBoxImg img{
+    width: 88%;
+    height: auto;
+}
+
+.containerBoxImg{
+    width: 33%;
+    height: 250px;
+    border: 1px solid rgba(128, 128, 128, 0.623);
+    border-radius: 5px;
+}
+
+
+#containerBoxImg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+#containerBoxImg p{
+    color: gray;
+    margin: 15px 0px 15px 0px;
+}
+
+#containerBoxImg button{
+    width: 50%;
+    height: auto;
+    margin: 15px;
+    padding: 8px 10px 8px 10px;
+    background-color: #F5124B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
 /* --------------- BODY --------------- */
+
 /* --------------- FOOTER --------------- */
+footer{
+    text-align: center;
+    padding: 15px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.651);
+    background-color: #2A2B2A;
+}
 /* --------------- FOOTER --------------- */
