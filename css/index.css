@@ -43,6 +43,10 @@ nav{
     padding-bottom: 15px;
 }
 
+#ulRight p{
+    display: none;
+}
+
 #ulRight li{
     list-style-type: none;
 }

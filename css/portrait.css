@@ -1,3 +1,56 @@
-@media screen {
+/* Sintaxe */
+@media screen and (max-width: 600px) and (orientation:portrait) {
+    /* MAX WIDTH = Tela menores que alguma resolução */
+
+    /* ---------- HEADER -------- */
+    #ulLeft {
+        width: 50%;
+        height: auto;
+        text-align: center;
+        font-size: 25px;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #ulLeft li {
+        list-style-type: none;
+    }
+
+    #ulRight {
+        width: auto;
+        height: auto;
+        border: 2px solid white;
+        padding: 10px 15px 10px 15px;
+        margin-left: 25%;
+    }
+
+    #ulRight li {
+        display: none;
+    }
+
+    #ulRight p {
+        display: block;
+    }
+
+    /* ---------- HEADER -------- */
+
+    /* ---------- BODY -------- */
+
+    #container {
+        width: 90%;
+    }
+
+    .containerBoxImg{
+        width: 100%;
+        height: auto;
+        margin: 25px 0px;
+    }
+  
+    #containerBoxImg{
+        display: block;
+        
+    }
+
     
-}
+
+    /* ---------- BODY -------- */
