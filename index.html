@@ -19,7 +19,7 @@
                 <ul id="ulLeft">
                     <li>ArtMuseum</li>
                 </ul>
-                <ul id="ulRight">
+                <ul id="ulRight" onclick="taskbar()">
                     <p> - </p>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Galeria</a></li>
@@ -80,6 +80,16 @@
         </footer>
         <!-- --------------- FOOTER ----------------->
     </div>
+
+    <script>
+        function taskbar(){
+            if (ulRight.style.display == "none"){
+                ulRight.style.display = "block"
+            }else {
+                ulRight.style.display = "none"
+            }
+        }
+    </script>
 </body>
 
 <script></script>
